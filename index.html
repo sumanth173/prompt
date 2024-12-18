@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ok{
+            display: flex;
+            height:100vh;
+            flex-wrap: wrap;
+            justify-content: center;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="ok">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/007/943/356/small_2x/congrats-lettering-greeting-sign-handwritten-modern-brush-lettering-vector.jpg" alt="">
+    </div>
+    <script>  
+
+      let student = prompt("Enter ur name :");
+      let companyname = prompt("Enter company name :")
+      let package = prompt("Enter package :")
+      let domain = prompt("Enter domain :")
+      
+      let stud= {
+        name: name,
+        companyname:companyname ,
+        package: package,
+        domain: domain,
+        joininddate: "04/01/2025",
+      };
+
+
+      (`${stud.name} got placed in ${stud.companyname} as a ${stud.domain} at a package of ${stud.package}  and  joining date is ${stud.joininddate}
+      `);
+    </script>
+</body>
+</html>
